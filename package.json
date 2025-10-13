@@ -1,0 +1,15 @@
+{
+  "name": "node-redis-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js + Redis app to count page visits (Docker Compose example)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "redis": "^4.6.7"
+  }
+}
